@@ -1,5 +1,21 @@
-venv/
+# Segurança (NUNCA envie suas chaves!)
 .env
+*.pem
+*.key
+
+# Python (Arquivos temporários e compilação)
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 .pytest_cache/
+
+# Ambiente Virtual (Cada um cria o seu na própria máquina/VM)
+venv/
+env/
+ENV/
+virtualenv/
+
+# Logs e arquivos de sistema
+*.log
+.DS_Store
+Thumbs.db
